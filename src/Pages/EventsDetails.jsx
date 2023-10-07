@@ -1,6 +1,6 @@
 import { useLoaderData, useParams } from "react-router-dom";
 import Navber from "../Components/Navber";
-
+import Swal from "sweetalert2";
 const EventsDetails = () => {
   const { id } = useParams();
   const allevents = useLoaderData();
@@ -16,7 +16,16 @@ const EventsDetails = () => {
         <div className="">
           <h1 className="text-3xl font-semibold text-gray-700 mb-4">{name}</h1>
           <p className="text-1xl font-semibold text-gray-500">{description}</p>
-          <button className="bg-[#FD1A5A] text-xl font-semibold text-white w-full mt-8 py-1 rounded-2xl">
+          <button
+            onClick={() => {
+              Swal.fire(
+                "Congratulations!",
+                "Your successfully buy this course",
+                "success"
+              );
+            }}
+            className="bg-[#FD1A5A] text-xl font-semibold text-white w-full mt-8 py-1 rounded-2xl"
+          >
             Buy Now . only {price} $
           </button>
         </div>

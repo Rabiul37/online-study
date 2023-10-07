@@ -1,4 +1,5 @@
 import PropTypes from "prop-types";
+import Swal from "sweetalert2";
 const CourseCard = ({ course }) => {
   const { name, image, price, long_description } = course;
   return (
@@ -16,7 +17,16 @@ const CourseCard = ({ course }) => {
           </p>
           <div className="card-actions justify-end flex  items-center">
             <p className="text-xl font-bold text-[#FD1A5A]"> Price : {price}</p>
-            <button className="btn bg-[#FD1A5A] font-semibold text-white">
+            <button
+              onClick={() => {
+                Swal.fire(
+                  "Congratulations!",
+                  "Your successfully buy this course",
+                  "success"
+                );
+              }}
+              className="btn bg-[#FD1A5A] font-semibold text-white"
+            >
               BUY
             </button>
           </div>

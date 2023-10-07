@@ -14,7 +14,7 @@ const PopularCourses = () => {
       <div className="mt-12 p-5">
         <div className="mb-12 text-center">
           <h1 className="text-5xl mb-2 font-extrabold  text-amber-500">
-            Our Popular Services
+            Our Popular Courses
           </h1>
           <p className="text-xl font-semibold text-gray-500">
             Experience the power of our popular educational service. Unlock new

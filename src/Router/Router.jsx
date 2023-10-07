@@ -5,6 +5,7 @@ import Home from "../Pages/Home";
 import Login from "../Pages/Login";
 import EventsDetails from "../Pages/EventsDetails";
 import Register from "../Pages/Register";
+import PrivetRoute from "./PrivetRoute";
 
 const router = createBrowserRouter([
   {
@@ -18,7 +19,11 @@ const router = createBrowserRouter([
       },
       {
         path: "/details/:id",
-        element: <EventsDetails></EventsDetails>,
+        element: (
+          <PrivetRoute>
+            <EventsDetails></EventsDetails>
+          </PrivetRoute>
+        ),
         loader: () => fetch("../../public/data.json"),
       },
       {
