@@ -6,6 +6,8 @@ import Login from "../Pages/Login";
 import EventsDetails from "../Pages/EventsDetails";
 import Register from "../Pages/Register";
 import PrivetRoute from "./PrivetRoute";
+import Instructor from "../Pages/Instructor";
+import Feature from "../Pages/Feature";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +18,14 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/instructor",
+        element: <Instructor></Instructor>,
+      },
+      {
+        path: "/feature",
+        element: <Feature></Feature>,
       },
       {
         path: "/details/:id",

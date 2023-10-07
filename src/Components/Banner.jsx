@@ -15,7 +15,7 @@ const Banner = () => {
             </h1>
             <Link to="/Register">
               <button className="bg-[#FD1A5A] px-6 py-2 text-xl font-semibold text-white">
-                Join Us
+                Register Now
               </button>
             </Link>
           </div>

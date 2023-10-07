@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Johnson",
+    "img": "https://i.ibb.co/FntDYmk/stefan-stefancik-QXev-Dflbl8-A-unsplash.jpg",
+    "qualification": "Ph.D. in Computer Science",
+    "description": "John Doe is an expert in artificial intelligence and has published numerous research papers in the field."
+  },
+  {
+    "id": 2,
+    "name": "Alice Smith",
+    "img": "https://i.ibb.co/BL36xGm/vicky-hladynets-C8-Ta0gw-Pb-Qg-unsplash.jpg",
+    "qualification": "Master's in Education",
+    "description": "Alice Smith is a passionate educator with 10 years of teaching experience."
+  },
+  {
+    "id": 3,
+    "name": "Bob Johnson",
+    "img": "https://i.ibb.co/8r83S7K/pexels-pixabay-220453.jpg",
+    "qualification": "Bachelor's in Business Administration",
+    "description": "Bob Johnson is a successful entrepreneur and the CEO of a tech startup."
+  },
+  {
+    "id": 4,
+    "name": "Emily Brown",
+    "img": "https://i.ibb.co/L1VZ5Wh/pexels-andrea-piacquadio-774909.jpg",
+    "qualification": "Ph.D. in History",
+    "description": "Emily Brown is a historian specializing in ancient civilizations and archaeology."
+  },
+  {
+    "id": 5,
+    "name": "Michael Clark",
+    "img": "https://i.ibb.co/bQPxwGM/pexels-justin-shaifer-1222271.jpg",
+    "qualification": "Master's in Finance",
+    "description": "Michael Clark is a financial analyst working for a leading investment bank."
+  },
+  {
+    "id": 6,
+    "name": "Sarah Taylor",
+    "img": "https://i.ibb.co/P6zc5cf/pexels-andrea-piacquadio-733872.jpg",
+    "qualification": "Bachelor's in Environmental Science",
+    "description": "Sarah Taylor is an environmental activist dedicated to preserving our planet."
+  },
+  {
+    "id": 7,
+    "name": "Linda Rodriguez",
+    "img": "https://i.ibb.co/kXmNR5B/pexels-moose-photos-1587009.jpg",
+    "qualification": "Ph.D. in Physics",
+    "description": "David Wilson is a physicist known for groundbreaking research in quantum mechanics."
+  },
+  {
+    "id": 8,
+    "name": "Hannah Mitchell",
+    "img": "https://i.ibb.co/P6zc5cf/pexels-andrea-piacquadio-733872.jpg",
+    "qualification": "Master's in Psychology",
+    "description": "Linda Rodriguez is a clinical psychologist specializing in cognitive therapy."
+  },
+  {
+    "id": 9,
+    "name": "Kevin Turner",
+    "img": "https://i.ibb.co/8r83S7K/pexels-pixabay-220453.jpg",
+    "qualification": "Bachelor's in Marketing",
+    "description": "Kevin Turner is a marketing manager at a global tech company."
+  },
+  {
+    "id": 10,
+    "name": "Olivia White",
+    "img": "https://i.ibb.co/FntDYmk/stefan-stefancik-QXev-Dflbl8-A-unsplash.jpg",
+    "qualification": "Ph.D. in Literature",
+    "description": "Olivia White is a renowned author and literary critic."
+  }
+]
