@@ -13,7 +13,7 @@ const Banner = () => {
             <h1 className="text-1xl lg:text-4xl font-bold text-[#19C8D0]">
               We Build Future with Education
             </h1>
-            <Link to="/Login">
+            <Link to="/Register">
               <button className="bg-[#FD1A5A] px-6 py-2 text-xl font-semibold text-white">
                 Join Us
               </button>
