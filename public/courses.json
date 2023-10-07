@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Computer Science",
+    "image": "https://i.ibb.co/DD4YRrB/computer.jpg",
+    "price": 1200,
+    "short_description": "Master programming and technology",
+    "long_description": "This comprehensive course covers programming languages, algorithms, and computer systems. Learn to develop software applications and gain skills in areas like web development, artificial intelligence, and cybersecurity."
+  },
+  {
+    "id": 2,
+    "name": "Business Administration",
+    "image": "https://i.ibb.co/4Rmnrs7/bussiness.jpg",
+    "price": 1000,
+    "short_description": "Excel in management and entrepreneurship",
+    "long_description": "Explore the world of business with courses in marketing, finance, and management. Acquire the knowledge and skills to start your own business or excel in a leadership role within an organization."
+  },
+  {
+    "id": 3,
+    "name": "Medicine",
+    "image": "https://i.ibb.co/hVYq17B/medicine.jpg",
+    "price": 2500,
+    "short_description": "Pursue a career in healthcare",
+    "long_description": "Embark on a journey in healthcare with courses in anatomy, physiology, pharmacology, and clinical training. Prepare to become a medical doctor or healthcare professional."
+  },
+  {
+    "id": 4,
+    "name": "Engineering",
+    "image": "https://i.ibb.co/2Z4q6mm/engineering.jpg",
+    "price": 1500,
+    "short_description": "Design and build innovative solutions",
+    "long_description": "Choose from various engineering disciplines, such as electrical, mechanical, civil, or computer engineering. Develop the skills to design, build, and maintain complex systems and structures."
+  },
+  {
+    "id": 5,
+    "name": "Psychology",
+    "image": "https://i.ibb.co/7XP9vSG/psychology.jpg",
+    "price": 800,
+    "short_description": "Explore the human mind and behavior",
+    "long_description": "Delve into the fascinating world of psychology. Study cognitive psychology, clinical psychology, and social psychology to understand the complexities of human behavior, emotions, and mental health."
+  },
+  {
+    "id": 6,
+    "name": "Environmental Science",
+    "image": "https://i.ibb.co/xGVJWXg/environment.jpg",
+    "price": 900,
+    "short_description": "Promote environmental sustainability",
+    "long_description": "Become an advocate for the environment with courses in ecology, climate change, conservation, and environmental policy. Learn to address pressing environmental challenges and work towards a sustainable future."
+  }
+]

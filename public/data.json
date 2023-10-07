@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Coding Bootcamp",
+    "image": "https://i.ibb.co/KVf7tNM/Coding-Bootcamp.jpg",
+    "price": 299,
+    "title": "Accelerate your coding skills at our intensive bootcamp. Expert-led training, hands-on projects, and real-world coding experience await you.",
+    "description": "Join our comprehensive Digital Marketing Workshop to master the art of online promotion. In this immersive program, you'll gain hands-on experience and in-depth knowledge of the latest digital marketing strategies and tools. Our expert instructors will guide you through the intricacies of search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content creation, email campaigns, and analytics. You'll learn how to effectively target your audience, optimize website traffic, and measure the success of your campaigns. Whether you're a business owner, marketer, or aspiring digital marketer, this workshop will empower you with the skills and insights needed to thrive in the ever-evolving digital landscape. Don't miss this opportunity to stay ahead of the competition and boost your online presence."
+  },
+  {
+    "id": 2,
+    "name": "Digital Marketing Workshop",
+    "image": "https://i.ibb.co/QMytPgT/Digital-Marketing-Workshop.jpg",
+    "price": 199,
+    "title": "Unlock the secrets of digital marketing in our intensive workshop. Learn SEO, social media strategies, and more for online success.",
+    "description": "Join our comprehensive Digital Marketing Workshop to master the art of online promotion. In this immersive program, you'll gain hands-on experience and in-depth knowledge of the latest digital marketing strategies and tools. Our expert instructors will guide you through the intricacies of search engine optimization (SEO), pay-per-click advertising (PPC), social media marketing, content creation, email campaigns, and analytics. You'll learn how to effectively target your audience, optimize website traffic, and measure the success of your campaigns. Whether you're a business owner, marketer, or aspiring digital marketer, this workshop will empower you with the skills and insights needed to thrive in the ever-evolving digital landscape. Don't miss this opportunity to stay ahead of the competition and boost your online presence."
+  },
+  {
+    "id": 3,
+    "name": "Art Appreciation Seminar",
+    "image": "https://i.ibb.co/b31kmvS/Art-Appreciation-Seminar.jpg",
+    "price": 249,
+    "title": "Dive into the world of art with our seminar. Explore renowned artworks, understand art history, and engage in meaningful discussions.",
+    "description": "Immerse yourself in the world of art with our Art Appreciation Seminar. Designed for art enthusiasts and novices alike, this seminar offers a captivating journey through the rich tapestry of human creativity.Led by experienced art historians and experts, you'll explore renowned masterpieces, delve into art movements, and gain a deeper understanding of the cultural and historical contexts that shaped these works. Engage in thought-provoking discussions, enhance your critical thinking, and discover the hidden stories behind iconic paintings and sculptures.Whether you're seeking to enrich your cultural knowledge or simply appreciate art on a deeper level, our Art Appreciation Seminar promises to broaden your horizons and ignite your passion for creativity."
+  },
+  {
+    "id": 4,
+    "name": "Financial Planning Masterclass",
+    "image": "https://i.ibb.co/ssVv08s/Financial-Planning-Masterclass.jpg",
+    "price": 199,
+    "title": "Unlock financial success with our masterclass. Master budgeting, investing, and retirement planning in this comprehensive financial education program.",
+    "description": "Transform your financial future with our Financial Planning Masterclass. This comprehensive program empowers individuals with the knowledge and strategies to take control of their financial destinies.Led by seasoned financial experts, the masterclass covers a wide spectrum of topics, from effective budgeting and smart investing to retirement planning and wealth preservation. Participants gain practical insights and hands-on experience, allowing them to make informed financial decisions and secure their financial well-being. Whether you're just starting your financial journey or looking to optimize your existing strategies, our Financial Planning Masterclass equips you with the skills and confidence needed to navigate the complex world of personal finance successfully."
+  },
+  {
+    "id": 5,
+    "name": "Science Expo 2023",
+    "image": "https://i.ibb.co/qDF3MkD/Science-Expo-2023.jpg",
+    "price": 510,
+    "title": "Discover cutting-edge science and innovations at Science Expo 2023. Engage with scientists, hands-on experiments, and mind-expanding discoveries.",
+    "description": "Welcome to Science Expo 2023, where the wonders of science come to life! This highly anticipated event is a captivating celebration of scientific discovery and innovation.Join us on a thrilling journey through cutting-edge research, hands-on experiments, and interactive exhibits that showcase the latest breakthroughs in various scientific fields. Engage with passionate scientists, educators, and fellow enthusiasts who share their expertise and insights.Science Expo 2023 offers a unique opportunity for all ages to explore, learn, and be inspired. From astronomy to biotechnology, from robotics to environmental conservation, this event is a testament to human curiosity and the limitless possibilities of science. Get ready to be awed and educated at Science Expo 2023"
+  },
+  {
+    "id": 6,
+    "name": "Language Learning Retreat",
+    "image": "https://i.ibb.co/N3827zM/Language-Learning-Retreat.jpg",
+    "price": 399,
+    "title": "Escape to our Language Learning Retreat. Immerse in culture, learn languages, and create lasting memories in this unique educational experience.",
+    "description": "Escape to a transformative Language Learning Retreat, where the world becomes your classroom. Immerse yourself in a cultural adventure that combines language acquisition with authentic experiences. Under the guidance of skilled language instructors, you'll explore a foreign language while engaging with native speakers and local traditions. From lively conversations to culinary delights and cultural excursions, every moment is an opportunity to enhance your language skills and broaden your horizons. Whether you're a novice or an experienced learner, this retreat offers a supportive environment to boost your fluency, build connections, and create lasting memories. Unlock new languages, cultures, and friendships at our Language Learning Retreat."
+  }
+]
