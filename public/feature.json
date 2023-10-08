@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "feature": "Workshops and Sessions",
+    "description": "Interactive sessions where attendees learn specific topics or skills.",
+    "img": "https://example.com/workshops.jpg"
+  },
+  {
+    "id": 2,
+    "feature": "Networking Opportunities",
+    "description": "Structured sessions for participants to connect with peers, mentors, and collaborators.",
+    "img": "https://example.com/networking.jpg"
+  },
+  {
+    "id": 3,
+    "feature": "Keynote Addresses",
+    "description": "Inspirational talks by prominent figures in the field at the beginning or end of the event.",
+    "img": "https://example.com/keynote.jpg"
+  },
+  {
+    "id": 4,
+    "feature": "Hands-on Activities",
+    "description": "Interactive workshops or practical activities for applying what's learned.",
+    "img": "https://example.com/handson.jpg"
+  },
+  {
+    "id": 5,
+    "feature": "Certifications and CEUs",
+    "description": "Opportunities to earn certificates or Continuing Education Units for professional development.",
+    "img": "https://example.com/certifications.jpg"
+  }
+]

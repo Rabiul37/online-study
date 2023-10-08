@@ -30,14 +30,14 @@
   {
     "id": 5,
     "name": "Michael Clark",
-    "img": "https://i.ibb.co/bQPxwGM/pexels-justin-shaifer-1222271.jpg",
+    "img": "https://i.ibb.co/FntDYmk/stefan-stefancik-QXev-Dflbl8-A-unsplash.jpg",
     "qualification": "Master's in Finance",
     "description": "Michael Clark is a financial analyst working for a leading investment bank."
   },
   {
     "id": 6,
     "name": "Sarah Taylor",
-    "img": "https://i.ibb.co/P6zc5cf/pexels-andrea-piacquadio-733872.jpg",
+    "img": "https://i.ibb.co/L1VZ5Wh/pexels-andrea-piacquadio-774909.jpg",
     "qualification": "Bachelor's in Environmental Science",
     "description": "Sarah Taylor is an environmental activist dedicated to preserving our planet."
   },
@@ -51,7 +51,7 @@
   {
     "id": 8,
     "name": "Hannah Mitchell",
-    "img": "https://i.ibb.co/P6zc5cf/pexels-andrea-piacquadio-733872.jpg",
+    "img": "https://i.ibb.co/BL36xGm/vicky-hladynets-C8-Ta0gw-Pb-Qg-unsplash.jpg",
     "qualification": "Master's in Psychology",
     "description": "Linda Rodriguez is a clinical psychologist specializing in cognitive therapy."
   },

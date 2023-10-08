@@ -21,11 +21,21 @@ const router = createBrowserRouter([
       },
       {
         path: "/instructor",
-        element: <Instructor></Instructor>,
+        element: (
+          <PrivetRoute>
+            <Instructor></Instructor>
+          </PrivetRoute>
+        ),
+        loader: () => fetch("../../public/Person.json"),
       },
       {
         path: "/feature",
-        element: <Feature></Feature>,
+        element: (
+          <PrivetRoute>
+            <Feature></Feature>
+          </PrivetRoute>
+        ),
+        loader: () => fetch("../../public/feature.json"),
       },
       {
         path: "/details/:id",
