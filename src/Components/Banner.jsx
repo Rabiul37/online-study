@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-
+import banner from "../assets/Banner.jpg";
 const Banner = () => {
   return (
     <div>
@@ -34,11 +34,7 @@ const Banner = () => {
             </Link>
           </div>
         </div>
-        <img
-          className="h-[80vh] w-full"
-          src="../../public/Banner1.jpg"
-          alt=""
-        />
+        <img className="h-[80vh] w-full" src={banner} alt="" />
       </div>
     </div>
   );

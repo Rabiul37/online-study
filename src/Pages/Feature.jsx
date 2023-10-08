@@ -11,7 +11,6 @@ const Feature = () => {
         {features?.map((afeature) => (
           <FeatureCard key={afeature.id} afeature={afeature}></FeatureCard>
         ))}
-        <div className="bg-white h-2"></div>
       </div>
     </div>
   );

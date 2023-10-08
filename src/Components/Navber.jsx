@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { NavLink } from "react-router-dom";
 import { AuthContext } from "../Provider/AuthProvider";
-// import logo1 from "../../public/logo1";
+import logo from "../assets/logo.png";
 const Navber = () => {
   const { user, logOut } = useContext(AuthContext);
 
@@ -57,11 +57,7 @@ const Navber = () => {
               {navber}
             </ul>
           </div>
-          <img
-            className="w-32 ml-40 lg:ml-0"
-            src="../../public/logo1.png"
-            alt=""
-          />
+          <img className="w-32 ml-40 lg:ml-0" src={logo} alt="" />
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">{navber}</ul>
