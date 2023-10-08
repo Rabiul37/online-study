@@ -4,7 +4,12 @@ import { PiCertificate } from "react-icons/Pi";
 const UnlimitedPossibility = () => {
   return (
     <div className="mb-12">
-      <div className="mt-12 mb-5 p-5">
+      <div
+        className="mt-12 mb-5 p-5"
+        data-aos="fade-down"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <div className="text-center">
           <p className="text-sm font-semibold text-center text-gray-500">
             What We Do
@@ -16,7 +21,11 @@ const UnlimitedPossibility = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center text-center gap-12 w-10/12 m-auto">
-        <div>
+        <div
+          data-aos="fade-right"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <RiComputerLine className="text-5xl ml-52   lg:ml-32 mb-3 text-[#19C8D0]"></RiComputerLine>
           <h1 className="text-2xl font-semibold text-gray-600 mb-3">
             Online Courses
@@ -26,7 +35,11 @@ const UnlimitedPossibility = () => {
             certified to complete a course or specialization.
           </p>
         </div>
-        <div>
+        <div
+          data-aos="zoom-in-up"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <FaRegLightbulb className="text-5xl ml-52   lg:ml-32 mb-3 text-[#FD1A5A]"></FaRegLightbulb>
           <h1 className="text-2xl font-semibold text-gray-600 mb-3">
             Our Mission
@@ -36,7 +49,11 @@ const UnlimitedPossibility = () => {
             stakeholders in your school reach such a common understanding.
           </p>
         </div>
-        <div>
+        <div
+          data-aos="fade-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <PiCertificate className="text-5xl ml-52   lg:ml-32 mb-3 text-[#F59E0B]"></PiCertificate>
           <h1 className="text-2xl font-semibold text-gray-600 mb-3">
             Professional Certificate

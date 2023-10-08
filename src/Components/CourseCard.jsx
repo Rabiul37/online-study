@@ -3,7 +3,11 @@ import Swal from "sweetalert2";
 const CourseCard = ({ course }) => {
   const { name, image, price, long_description } = course;
   return (
-    <div>
+    <div
+      data-aos="fade-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="1000"
+    >
       <div className="card card-compact  bg-base-100 shadow-xl">
         <figure>
           <img className="w-full h-56" src={image} />

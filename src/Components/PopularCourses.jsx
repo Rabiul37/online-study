@@ -12,7 +12,12 @@ const PopularCourses = () => {
     <div>
       <div className="h-24 bg-white"></div>
       <div className="mt-12 p-5">
-        <div className="mb-12 text-center">
+        <div
+          className="mb-12 text-center"
+          data-aos="fade-down"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="1000"
+        >
           <h1 className="text-5xl mb-2 font-extrabold  text-amber-500">
             Our Popular Courses
           </h1>

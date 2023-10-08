@@ -68,10 +68,15 @@ const Navber = () => {
         </div>
         <div className="navbar-end flex gap-3">
           <img className="w-12 rounded-full" src={user?.photoURL} alt="" />
-          <h1 className="text-sm font-semibold">{user?.displayName}</h1>
+          <h1 className="text-lg font-semibold text-[#FD1A5A]">
+            {user?.displayName}
+          </h1>
           <div>
             {user ? (
-              <a onClick={handleLogOut} className="btn">
+              <a
+                onClick={handleLogOut}
+                className="btn bg-[#FD1A5A] text-white font-semibold"
+              >
                 Sign Out
               </a>
             ) : (

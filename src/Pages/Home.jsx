@@ -4,7 +4,9 @@ import Navber from "../Components/Navber";
 import PopularCourses from "../Components/PopularCourses";
 import Services from "../Components/Services";
 import UnlimitedPossibility from "../Components/UnlimitedPossibility";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
+AOS.init();
 const Home = () => {
   return (
     <div>

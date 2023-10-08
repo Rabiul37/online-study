@@ -4,7 +4,11 @@ const EventsCard = ({ Events }) => {
   const { id, name, image, price, title } = Events;
   return (
     <>
-      <div>
+      <div
+        data-aos="fade-right"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+      >
         <div className="card card-compact  bg-base-100 shadow-xl">
           <figure>
             <img className="w-full h-56" src={image} />
