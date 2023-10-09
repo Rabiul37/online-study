@@ -1,3 +1,4 @@
+import logo from "../assets/logo.png";
 const Footer = () => {
   return (
     <div>
@@ -8,7 +9,7 @@ const Footer = () => {
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"
       >
-        <img className="w-52" src="../../public/logo1.png" alt="" />
+        <img className="w-52" src={logo} alt="" />
       </div>
       <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
         <nav className="grid grid-flow-col gap-4">

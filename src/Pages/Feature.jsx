@@ -8,7 +8,7 @@ const Feature = () => {
     <div>
       <Navber></Navber>
       <div className="">
-        {features?.map((afeature) => (
+        {features.map((afeature) => (
           <FeatureCard key={afeature.id} afeature={afeature}></FeatureCard>
         ))}
       </div>
