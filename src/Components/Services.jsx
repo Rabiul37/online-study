@@ -28,8 +28,8 @@ const Services = () => {
         <div className="w-56 h-1 mt-5 m-auto bg-[#FD1A5A] "></div>
       </div>
       <div className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-        {AllEvents.map((Events) => (
-          <EventsCard key={Events.id} Events={Events}></EventsCard>
+        {AllEvents.map((events) => (
+          <EventsCard key={events.id} events={events}></EventsCard>
         ))}
       </div>
     </div>

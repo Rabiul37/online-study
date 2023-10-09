@@ -4,6 +4,7 @@ import InstructorCard from "../Components/instructorCard";
 
 const Instructor = () => {
   const instructors = useLoaderData();
+
   return (
     <div>
       <Navber></Navber>

@@ -8,6 +8,8 @@ import Register from "../Pages/Register";
 import PrivetRoute from "./PrivetRoute";
 import Instructor from "../Pages/Instructor";
 import Feature from "../Pages/Feature";
+import InstractorPrivet from "./InstractorPrivet";
+import FeaturePrivate from "./FeaturePrivate";
 
 const router = createBrowserRouter([
   {
@@ -22,20 +24,20 @@ const router = createBrowserRouter([
       {
         path: "/instructor",
         element: (
-          <PrivetRoute>
+          <InstractorPrivet>
             <Instructor></Instructor>
-          </PrivetRoute>
+          </InstractorPrivet>
         ),
-        loader: () => fetch("../../public/Person.json"),
+        loader: () => fetch("/Person.json"),
       },
       {
         path: "/feature",
         element: (
-          <PrivetRoute>
+          <FeaturePrivate>
             <Feature></Feature>
-          </PrivetRoute>
+          </FeaturePrivate>
         ),
-        loader: () => fetch("../../public/feature.json"),
+        loader: () => fetch("/feature.json"),
       },
       {
         path: "/details/:id",
@@ -44,7 +46,7 @@ const router = createBrowserRouter([
             <EventsDetails></EventsDetails>
           </PrivetRoute>
         ),
-        loader: () => fetch("../../public/data.json"),
+        loader: () => fetch("/data.json"),
       },
       {
         path: "/Login",

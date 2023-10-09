@@ -4,12 +4,13 @@ import FeatureCard from "../Components/featureCard";
 
 const Feature = () => {
   const features = useLoaderData();
+
   return (
     <div>
       <Navber></Navber>
       <div className="">
-        {features.map((afeature) => (
-          <FeatureCard key={afeature.id} afeature={afeature}></FeatureCard>
+        {features.map((feature) => (
+          <FeatureCard key={feature.id} feature={feature}></FeatureCard>
         ))}
       </div>
     </div>

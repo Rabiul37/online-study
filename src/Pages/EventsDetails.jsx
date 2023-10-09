@@ -4,8 +4,9 @@ import Swal from "sweetalert2";
 const EventsDetails = () => {
   const { id } = useParams();
   const allevents = useLoaderData();
-  const Events = allevents.find((events) => events.id == id);
-  const { image, name, description, price } = Events;
+  const eventsSigleData = allevents.find((events) => events.id == id);
+
+  const { image, name, description, price } = eventsSigleData;
   return (
     <div className="mt-8">
       <Navber></Navber>

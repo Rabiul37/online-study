@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-const EventsCard = ({ Events }) => {
-  const { id, name, image, price, title } = Events;
+const EventsCard = ({ events }) => {
+  const { id, name, image, price, title } = events;
   return (
     <>
       <div
@@ -40,5 +40,5 @@ const EventsCard = ({ Events }) => {
 
 export default EventsCard;
 EventsCard.propTypes = {
-  Events: PropTypes.object,
+  events: PropTypes.object,
 };
